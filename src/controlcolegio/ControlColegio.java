@@ -15,9 +15,11 @@ public class ControlColegio {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
-        System.out.println("Esto es una prueba");
-        System.out.println("Prueba dos");
+        // Main del proyecto
+        FormLogin formulario=new FormLogin();
+        formulario.setLocationRelativeTo(null);
+        formulario.setTitle("Inicio de Sesión");
+        formulario.setVisible(true);
     }
     
 }
